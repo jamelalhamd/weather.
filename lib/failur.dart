@@ -10,7 +10,7 @@ class failur extends StatelessWidget {
     return  Scaffold(
       appBar: AppBar(
           elevation: 50,
-          backgroundColor: Colors.orange.shade500,
+          backgroundColor: Colors.blue,
           centerTitle: true,
           actions: [
             IconButton(
@@ -25,7 +25,7 @@ class failur extends StatelessWidget {
             )
           ],
           title: const Text(
-            " Weather f",
+            " Weather ",
             style: TextStyle(
                 color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
           )),
